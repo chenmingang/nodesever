@@ -9,5 +9,6 @@ function handleGet(urlParsed,res){
 
 	var pathName = urlParsed.pathname;
 	router.route(pathName,res);
+	
 }
 exports.handleGet = handleGet;
